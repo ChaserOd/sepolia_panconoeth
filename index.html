@@ -98,36 +98,56 @@ Block Explorer URL: https://sepolia.etherscan.io</code></pre>
 
 
 <section class="mt-8">
-      <div class="bg-gradient-to-b from-slate-900/60 to-transparent rounded-2xl p-6 border border-white/5">
-        <h3 class="text-xl font-semibold">Third Step: Get Pancono Token</h3>
-<p class="mt-2 text-slate-300">
-  Copy the Google faucet link below, open it in your browser, and claim free Sepolia ETH to your wallet every day.  
-  <br />
-  Next, open the Pancono Twitter link below in your browser. Find any Pancono post and comment your Ethereum (ETH) wallet address on those posts regularly — also 🔁 retweet and 👍 like them.  
-  <br />
-  We randomly distribute Pancono testnet tokens to users who comment, retweet, and like—so keep interacting to increase your chances.  
-  <br />
-  Do this regularly to receive Pancono tokens on Sepolia. You can check your Pancono balance in your wallet while connected to the Sepolia network.  
-  <br />
-  After you receive tokens, send some from your wallet to other users who posted their addresses on our Twitter threads and notify them with a reply.  
-  <br />
-  Completing these tasks makes you eligible for mainnet Pancono rewards when the mainnet launches. See the rules below.
-</p>
+  <div class="bg-gradient-to-b from-slate-900/60 to-transparent rounded-2xl p-6 border border-white/5">
+    <h3 class="text-xl font-semibold">Third Step: Get Pancono Tokens</h3>
 
-        <div class="mt-4 flex items-start gap-4 md:items-center md:gap-6">
-          <div class="flex-1">
-            <div class="bg-slate-800/40 p-4 rounded-md">
-              <div class="flex items-center justify-between">
-                <div>
-                  <div class="text-xs text-slate-400">Twitter</div>
-                  <div id="contract-address" class="select-all font-mono mt-1">https://x.com/PanconoCoin</div>
-                   <div id="contract-address" class="select-all font-mono mt-1">https://cloud.google.com/application/web3/faucet/ethereum/sepolia</div>
-                </div>
-               </div>
-              </div>
-           </div>
-         </div>
-    </section>
+    <p class="mt-2 text-slate-300 leading-relaxed">
+      First, open the Google faucet link below in your browser and claim free Sepolia ETH daily to your wallet.  
+      <br /><br />
+      Then visit the Pancono Twitter page and actively engage: comment your Ethereum (ETH) wallet address under our posts, 🔁 retweet, and 👍 like the posts regularly.  
+      <br /><br />
+      Pancono testnet tokens are distributed randomly to active community members who comment, retweet, and like — the more you interact, the higher your chances of receiving tokens.  
+      <br /><br />
+      After you receive Pancono tokens, begin sending some to other users who share their wallet addresses in our Twitter posts. Reply and inform them after sending — this activity increases your mainnet eligibility.  
+      <br /><br />
+      Regular participation makes you eligible for Mainnet Pancono token rewards when the mainnet launches. Read the rules below.
+    </p>
+
+    <div class="mt-5 space-y-4">
+      <div class="bg-slate-800/40 p-4 rounded-md">
+        <div class="flex flex-col gap-3">
+          
+          <div>
+            <div class="text-xs text-slate-400 uppercase tracking-wide">Google Faucet – Claim Sepolia ETH</div>
+            <div class="select-all font-mono text-sm mt-1 break-all">
+              https://cloud.google.com/application/web3/faucet/ethereum/sepolia
+            </div>
+            <button onclick="navigator.clipboard.writeText('https://cloud.google.com/application/web3/faucet/ethereum/sepolia'); showToast('Faucet link copied');"
+              class="mt-2 px-3 py-2 bg-indigo-600 rounded-md text-sm">
+              Copy Faucet Link
+            </button>
+          </div>
+
+          <hr class="border-white/10" />
+
+          <div>
+            <div class="text-xs text-slate-400 uppercase tracking-wide">Pancono Official Twitter</div>
+            <div class="select-all font-mono text-sm mt-1 break-all">
+              https://x.com/PanconoCoin
+            </div>
+            <button onclick="navigator.clipboard.writeText('https://x.com/PanconoCoin'); showToast('Twitter link copied');"
+              class="mt-2 px-3 py-2 bg-indigo-600 rounded-md text-sm">
+              Copy Twitter Link
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
    
 
